@@ -1,0 +1,302 @@
+#wpdeva_gall_close_icon_ {
+	background-color: white;
+	left:384px;
+	top:0px;
+	position         :absolute;
+	z-index          :1;
+	color            :blue;
+	font-size        :16px;
+	cursor:             pointer;	
+}
+#wpdeva_gall_close_icon_:hover {
+	background-color: red;
+}
+
+.wpdeva_gall_popup_settings {
+    position         :relative;
+    width            :0px;
+    height           :0px;
+	z-index          :100009;
+    float            :left;
+}
+
+
+.wpdeva_gall_popup_settings_{
+	position         :absolute;
+    min-width        :400px;
+    height           :600px;
+    left             :0px;
+    top              :0px;
+    overflow         :auto;
+	overflow-x       :hidden;
+    box-shadow: 0px 0px 10px #888888;
+}
+.wpdeva_gall_table_klass {
+    width             :100%;
+    border-collapse   :collapse;
+}
+table.wpdeva_gall_table_klass td, th {
+    border-collapse   :collapse;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+
+    text-align        :left;
+		
+}
+table.wpdeva_gall_table_klass .table_name{
+	width             :100%;
+	text-align        :center;
+	padding           :5px;
+	background-color  :#d0d0d0;
+	font-size:1.5em;	
+}
+table.wpdeva_gall_table_klass .table_name:hover {
+	background-color  :#d5d5d5;
+}
+table.wpdeva_gall_table_klass tr:nth-child(even) {
+    background-color: #ffffff;
+}
+table.wpdeva_gall_table_klass th {
+	width             :190px;
+	background-color :#eeeeee;
+	padding           :15px;	
+}
+table.wpdeva_gall_table_klass td {
+	width             :20%;
+	padding           :5px;	
+}
+table.wpdeva_gall_table_klass tr:hover{
+    background-color :#e6e6e6;
+}
+table.wpdeva_gall_table_klass td:nth-child(1){	
+	width: 50px;	
+}
+
+
+
+#wpdeva_gall_iframe {
+    box-shadow: 0px 0px 5px #000000;
+    margin-left:        20px;
+	display:            inline;
+	position:           reliative;
+}
+.wpdeva_gall_popup_parent {
+    left: 150px;
+    top: calc(50% - 182px);
+    position:           absolute;
+    width:              0px;
+	height:             0px;
+	z-index:            100002;
+}
+.wpdeva_gall_popup {
+	z-index:            0;
+    background-color:#000000;
+	position:           absolute;
+    border-radius:      10px;
+    overflow:           hidden;
+}
+.wpdeva_gall_popup_img0 {
+    position:           absolute;
+    left:               0px;
+	top:                0px;
+	z-index:            1;
+	border:             none;
+}
+.wpdeva_gall_popup_img1 {
+    position:           absolute;
+    left:               0px;
+	bottom:             0px;
+    z-index:            1;
+	border:             none;
+}
+.wpdeva_gall_popup_canvas_copi {
+	position:           absolute;
+    left:               0px;
+    top:                0px;
+    width:              100%;
+	z-index:            1;
+}
+.wpdeva_gall_popup_icon_left_bar {
+	color:              #ffffff;
+    position:           absolute;
+	left:               0%;
+	top:                0%;
+	opacity:            0.5;
+	width:              0%;
+	height:             100%;
+}
+.wpdeva_gall_popup_icon_left_bar:hover {
+    opacity:            1;
+}
+.wpdeva_gall_popup_icon_left_base {
+    position:           absolute;
+	left:               0%;
+	top:                50%;
+	width:              0px;
+	height:             0px;
+	font-size:          30px;
+}
+.wpdeva_gall_popup_icon_left {
+	color:              #0000ff;
+	position:           absolute;
+    left:               15px;
+    top:                -15px;
+	cursor:             pointer;
+}
+.wpdeva_gall_popup_icon_right_bar {
+    color:              #ffffff;
+    position:           absolute;
+	opacity:            0.5;
+	left:               100%;
+	top:                0%;
+	width:              0%;
+	height:             100%;
+}
+.wpdeva_gall_popup_icon_right_bar:hover {
+    opacity:            1;
+}
+.wpdeva_gall_popup_icon_right_base {
+    position:           absolute;
+    right:              0%;
+    top:                50%;
+	width:              0px;
+	height:             0px;
+	font-size:          30px;
+}
+.wpdeva_gall_popup_icon_right {
+    color:              #0000ff;
+    position:           absolute;
+	right:              15px;
+	top:                -15px;
+	cursor:             pointer;
+}
+.wpdeva_gall_left_bar_icons {
+    background-color:#000000;
+    position:           absolute;
+	width:              100%;
+	height:             36px;
+	line-height:        32.4px;
+	left:               0px;
+	bottom:             0px;
+	z-index:            11;
+}
+.wpdeva_gall_left_bar_icons:hover {
+    opacity:            1;
+}
+.wpdeva_gall_right_bar_icons {
+    position:           absolute;
+	height:             100%;
+    line-height:        32.4px;
+	top:                0px;
+	right:              0px;
+	display:            inline-block;
+	z-index:            1;
+	overflow:           hidden;
+}
+.wpdeva_gall_number_image {
+    margin-left:        12px;
+	color:              #ffffff;
+    display:            inline-block;
+	vertical-align:     middle;
+	line-height:        normal;
+}
+.wpdeva_gall_class_icon {
+	margin-left:        12px;
+	color:              #ffffff;
+	display:            inline-block;
+	vertical-align:     middle;
+	cursor:             pointer;
+}
+.wpdeva_gall_class_icon:hover {
+	color:              #ff0000;
+	opacity:            1;
+}
+.wpdeva_gall_bar_thumbnail_imgs_base {
+    position:           absolute;
+    top:                -4px;
+	left:               8.5%;
+	height:             0px;
+	width:              83%;
+	z-index:            2;
+	text-align:         center;
+}
+.wpdeva_gall_bar_thumbnail_imgs {
+    height:             4px;
+	background-color:   rgb(255, 0, 0);
+    position:           absolute;
+	left:               0%;
+	top:                0%;
+	text-align:         center;
+	width:              100%;
+}
+.wpdeva_gall_thumbnail_imgs {
+	position:           relative;
+    float:              left;
+	height:             100%;
+	width:              100%;
+	top:                0px;
+}
+.wpdeva_gall_thumbnail_imgs_ {
+    background-color:   #ffffff;
+	position:           relative;
+	float:              left;
+	height:             100%;
+	top:                0px;
+}
+.wpdeva_gall_pntik {
+    background-color:   #a75858;
+    border-radius:      10px;
+    position:           absolute;
+	left:               0px;
+	height:             100%;
+	width:              100%;
+}
+.wpdeva_gall_t_i_screen {
+    width:              150px;
+	top:                -109px;
+    height:             80px;
+	border:             solid #c0c0c0 4px;
+	background-color:   #000000;
+	opacity:            0.91;
+	position:           absolute;
+	background-repeat:  no-repeat;
+	background-position:center;
+	background-size:    contain;
+}
+.wpdeva_gall_t_i_count_screen {
+    left:               50px;
+	width:              50px;
+	height:             40px;
+	background-color:   #000000;
+	opacity:            0.6;
+	color:              #ffffff;
+	bottom:             0px;
+	position:           absolute;
+	text-align:         center;
+}
+.wpdeva_gall_bar_icons_out {
+    position:           absolute;
+    z-index:            100000;
+    left:               100px;
+	top:                100px;
+	width: calc(100% - 200px);
+	height:  calc(100% - 200px);
+	background-color:   rgba(0,0,0,0.6);
+}
+#wpdeva_gall_overlay{
+    box-shadow: 0px 0px 5px #000000;
+    float:              right;
+	background-color:   rgba(0,0,0,0.19);	
+    position:           relative;
+	width:              1030px;
+	height:             800px;
+	z-index:            2;
+}
+#wpdeva_gall_wrap_overlay{    	
+    position:           absolute;
+	width:              100%;
+	left:               0px;
+	top:                0px;
+    z-index:            1;
+}
